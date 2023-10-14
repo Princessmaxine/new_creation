@@ -15,11 +15,17 @@ include 'includes/header.php'
  
    $name = 'Maxine Smith';
    $age = 45;
-   echo '<hi>My Name Is: '.$name.' </h1>';
-   echo '<br/>';
-   echo '<hi>My Age Is: '.$age.' </h1>';
+   $address = 'May Pen Drive';
+   // echo variable
+   echo $name;
+   echo '<h1>My Name Is: '.$name.' </h1>';
+   echo '<h1>My Age Is: '.$age.' </h1>';
+   // Ech using double quotes and interpolation
+   echo "<h1>My Address is: $address </h1>";
    ?>
    <button  type="button" class="btn btn-success">CLICK ME!</button>
+   <button  type="button" class="btn btn-primary">CLICK ME!</button>
+   <button  type="button" class="btn btn-secondary">CLICK ME!</button>
    <?php
  require 'includes/footer.php' 
  ?>
