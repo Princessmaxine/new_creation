@@ -5,7 +5,7 @@
   <h1>Switch Statements</h1>  
   <?php
   $grade = 'A';
-  switch(grade){
+  switch($grade){
     case 'A':
         echo '<h2 style ="color: green">YOU ARE A SUPERSTAR!</h2>';
         break;
